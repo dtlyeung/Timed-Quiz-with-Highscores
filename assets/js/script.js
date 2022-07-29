@@ -59,7 +59,7 @@ const points = document.getElementById('points')
 const initial = document.getElementById('initial')
 const submit = document.getElementById('submit')
 const seconds = document.getElementById('seconds')
-const leaderboardButton = document.getElementById("leaderboard")
+const leaderboard = document.getElementById("leaderboard")
 const hiscores = document.getElementById("hiscores")
 const players = document.getElementById("players")
 const back = document.getElementById('back')
@@ -173,7 +173,7 @@ function startTimer(time) {
 }
 
 //Leaderboard
-leaderboardButton.addEventListener('click',viewLeaderboard)
+leaderboard.addEventListener('click',viewLeaderboard)
 
 function viewLeaderboard() {
   const scores = JSON.parse(localStorage.getItem('score'));
