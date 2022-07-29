@@ -2,8 +2,9 @@
 
 ## Project Description
 
-This application is a quiz about basic development questions. There is a timer of 60 seconds, which is used to calculate the final score of the user based
-on their ability to answer the questions correctly and within the time limit. The score is then recorded in local storage to create a leaderboard of users.
+This project was built for the University of Toronto School of Continuing Education Coding Bootcamp.This application is a quiz about basic development questions. 
+There is a timer of 60 seconds, which is used to calculate the final score of the user based on their ability to answer the questions correctly and within the 
+time limit. The score is then recorded in local storage to create a leaderboard based on the scores of different quiz takers.
 
 This application was built with:
   - HTML
