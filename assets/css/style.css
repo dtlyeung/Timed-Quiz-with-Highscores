@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: white;
+    height: 100vh;
+    font-family: Helvetica, Arial, sans-serif;
+       
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    color:black;
+    background-color:white;
+    padding: 0px 20px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+
+.container{
+    padding: 100px;
+    margin: 20px;
+    border: 2px solid #d3d3d3;
+    box-shadow: 10px 10px 8px #d3d3d3;
+    border-radius: 25px;
+}
+
+.container > p{
+    margin: 10px 0px;
+}
+
+.container > button{
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    background-color: purple;
+}
+
+.hide{
+    display: none
+}
+
+.container > div{
+    margin-top: 20px;
+}
+
+.ans-btn{
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn{
+    background-color: purple;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.line{
+    border: 1px solid #d3d3d3;
+}
+
+#initial{
+    width: 100px;
+    height: 20px;
+}
+
+.timer{
+    display: flex;
+}
+
+#leaderboard{
+    cursor: pointer;
+}
+
+#leaderboard-list{
+    margin: 10px 0px 10px 25px;
+}

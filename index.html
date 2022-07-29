@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <title>Coding Quiz</title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <a id="leaderboard">View Highscores</a> 
+            </div>
+            <div class="timer">
+                <div>Time:</div>
+                <div id="seconds"></div>
+            </div>
+        </header>
+        <main>
+            <div id="quiz-box" class="container">
+                <h2>Coding Quiz</h2>
+                <p>Try to answer following code-related questions within the time limit</p>
+                <p>Keep in the mind that incorrect answers will penalize your score by 10 seconds</p>
+                <button id="quiz-start">Start Quiz</button>
+            </div>
+            <div id="question-box" class="container hide">
+                <h2 id="question">Question</h2>
+                <div>
+                    <div class="response">Answer 1</div>
+                    <div class="response">Answer 2</div>
+                    <div class="response">Answer 3</div>
+                    <div class="response">Answer 4</div>
+                </div>
+                <div class="line"></div>
+                <p id="message"></p>
+            </div>
+            <div id="score" class="container hide">
+                <h2>All done!</h2>
+                <p id="points"></p>
+                <div>
+                    Enter initials: <input id="initial" type="text">
+                    <button id="submit" class="btn">Submit</button>
+                </div>
+            </div>
+            <div id="leaderBoard-view" class="container hide">
+                <h2>Highscores</h2>
+                <ol id="leaderboard-list">
+                </ol>
+                <div>
+                    <button id="back" class="btn">Go back</button>
+                    <button id="clearHighscores" class="btn">Clear Highscores</button>
+                </div>
+            </div>
+        </main>
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
