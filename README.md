@@ -18,3 +18,8 @@ At this moment in time, there are still major issues with the application.
 1. Clone repository
 2. Open files using editor (I personally recommend Visual Studio Code)
 
+
+
+
+
+(https://user-images.githubusercontent.com/106760994/181663853-4933f0bf-d4e5-4dea-8f22-d083c64cde75.jpg)
