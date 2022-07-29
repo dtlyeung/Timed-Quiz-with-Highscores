@@ -69,7 +69,7 @@ let message = ''
 let score = 0
 let currentquestion, availablequestions;
 let counter;
-let timeValue = 50
+let timeValue = 60
 
 
 //Beginning of quiz

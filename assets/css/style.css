@@ -5,7 +5,7 @@
 
 body{
     background: white;
-    height: 100vh;
+    height: auto;
     font-family: Helvetica, Arial, sans-serif;
        
 }
@@ -27,19 +27,19 @@ main{
     height: 90%;
 }
 
-.container{
+.box{
     padding: 100px;
     margin: 20px;
-    border: 2px solid #d3d3d3;
-    box-shadow: 10px 10px 8px #d3d3d3;
+    border: 2px solid white;
+    box-shadow: 10px 10px 8px white;
     border-radius: 25px;
 }
 
-.container > p{
+.box > p{
     margin: 10px 0px;
 }
 
-.container > button{
+.box > button{
     border: none;
     padding: 10px;
     color: white;
@@ -51,11 +51,11 @@ main{
     display: none
 }
 
-.container > div{
+.box > div{
     margin-top: 20px;
 }
 
-.ans-btn{
+.response{
     background-color: purple;
     color: white;
     margin: 5px;
@@ -76,7 +76,7 @@ main{
 }
 
 .line{
-    border: 1px solid #d3d3d3;
+    border: 1px solid white;
 }
 
 #initial{
@@ -92,6 +92,6 @@ main{
     cursor: pointer;
 }
 
-#leaderboard-list{
+#players{
     margin: 10px 0px 10px 25px;
 }
