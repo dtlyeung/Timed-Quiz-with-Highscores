@@ -10,7 +10,7 @@ This application was built with:
   - CSS
   - Javascript
 
-At this moment in time, there are still a major issue with the application. 
+At this moment in time, there is still a major issue with the application. 
   1. The questions do not load on the application. The answers load correctly, but the question remains undefined. 
 
 ## How to run
