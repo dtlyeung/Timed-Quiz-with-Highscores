@@ -124,7 +124,7 @@ function selectAnswer(e) {
         seconds.innerText = ''
         scoring.classList.remove('hide')
         questionbox.classList.add("hide")
-        points.innerText = `Your final score is ${score}.`
+        points.innerText = `Your score is ${score}.`
     }
 }
 
@@ -141,7 +141,7 @@ function setScore() {
             scores : [`${value} - ${score}`]
         }
         localStorage.setItem('score', JSON.stringify(obj));
-        alert('Score added succesfully')
+        alert('Score updated')
         scoring.classList.add('hide')
         quizbox.classList.remove("hide")
     } else{
@@ -149,7 +149,7 @@ function setScore() {
         const scores = JSON.parse(localStorage.getItem('score'));
         scores.scores.push(`${value} - ${score}`)
         localStorage.setItem('score', JSON.stringify(scores))
-        alert('Score added succesfully')
+        alert('Score updated')
         scoring.classList.add('hide')
         quizbox.classList.remove("hide")
     }
@@ -165,7 +165,7 @@ function startTimer(time) {
     } else {
       scoring.classList.remove('hide')
       questionContainerElement.classList.add("hide")
-      points.innerText = `Your final score is ${score}.`
+      points.innerText = `Your score is ${score}.`
       seconds.innerText = ''
       clearInterval(counter)
     }
@@ -186,7 +186,7 @@ function viewLeaderboard() {
     quizbox.classList.add("hide")
     hiscores.classList.remove("hide")
   } else {
-    alert('No high scores')
+    alert('No high scores saved')
   }
 }
 
