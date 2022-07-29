@@ -10,8 +10,9 @@ This application was built with:
   - CSS
   - Javascript
 
-At this moment in time, there is still a major issue with the application. 
+At this moment in time, there are still major issues with the application. 
   1. The questions do not load on the application. The answers load correctly, but the question remains undefined. 
+  2. The application does not recognize answers that are correct. It considers all answers to to be incorrect.
 
 ## How to run
 1. Clone repository
